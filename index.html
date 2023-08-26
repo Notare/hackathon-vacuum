@@ -34,92 +34,71 @@
     <link rel="manifest" href="./images/favicon/site.webmanifest" />
   </head>
   <body>
-    <div class="test">
-      <section class="main-content">
-        <div class="container">
-          <div>
-            <h1 class="main-content__title">
-              HACKATHON <strong>VACUUM</strong> | 2º EDIÇÃO.
-            </h1>
-            <img
-              class="rect-top"
-              src="./images/Rectangle 9barrasuperior.svg"
-              alt=""
-            />
-          </div>
+    <section class="main-content">
+      <div class="container">
+        <div>
+          <h1 class="main-content__title">
+            HACKATHON <strong>VACUUM</strong> | 2º EDIÇÃO.
+          </h1>
+          <img src="./images/Rectangle 9barrasuperior.svg" alt="" />
+        </div>
+        <img
+          src="./images/logo.png"
+          alt="Logo da Vacuum"
+          class="main-content__logo"
+        />
+        <div>
+          <a
+            target="_blank"
+            class="main-content__link"
+            href="https://discord.gg/vacuum"
+            >DISCORD.GG/VACUUM</a
+          >
           <img
-            src="./images/logo.png"
-            alt="Logo da Vacuum"
-            class="main-content__logo"
+            class="main-content__rect-bottom"
+            src="./images/Rectangle 9barrainferior.svg"
+            alt=""
           />
-          <div>
-            <a
-              target="_blank"
-              class="main-content__link"
-              href="https://discord.gg/vacuum"
-              >DISCORD.GG/VACUUM</a
-            >
-            <img
-              class="rect-bottom"
-              src="./images/Rectangle 9barrainferior.svg"
-              alt=""
-            />
-          </div>
         </div>
-      </section>
-      <section class="login-section">
-        <div class="ellipse-top">
-          <img src="./images/Ellipse 3meialuasuperior2.svg" alt="" />
-        </div>
-        <div class="ellipse-bottom">
-          <img src="./images/Ellipse 2meialuasuperior1.svg" alt="" />
-        </div>
-        <div class="container">
-          <p class="login-section__welcome">Bem vindo.</p>
-          <h2 class="login-section__title clr-accent">
-            Faça login na sua conta
-          </h2>
-          <form class="login-section__form ff-secondary" action="">
-            <label class="login-section__email-label" for="email">E-mail</label>
-            <input
-              class="login-section__email-input"
-              type="email"
-              name="email"
-              id="email"
-            />
-            <label class="login-section__pw-label" for="password">Senha</label>
-            <input
-              class="login-section__pw-input"
-              type="password"
-              name="password"
-              id="password"
-            />
-            <div class="login-section__passwords-container">
-              <div>
-                <input
-                  class="login-section__remember-input"
-                  type="checkbox"
-                  name="remember"
-                  id="remember"
-                />
-                <label class="login-section__remember-label" for="remember"
-                  >Lembre de mim</label
-                >
-              </div>
-              <a class="login-section__forgot clr-accent-light" href="#"
-                >Esqueceu sua senha?</a
+      </div>
+    </section>
+
+    <section class="login-section">
+      <div class="login-section__ellipse-top">
+        <img src="./images/Ellipse 3meialuasuperior2.svg" alt="" />
+      </div>
+      <div class="login-section__ellipse-bottom">
+        <img src="./images/Ellipse 2meialuasuperior1.svg" alt="" />
+      </div>
+      <div class="container">
+        <p>Bem vindo.</p>
+        <h2 class="login-section__title clr-accent">Faça login na sua conta</h2>
+        <form class="login-section__form ff-secondary" action="">
+          <label for="email">E-mail</label>
+          <input type="email" name="email" id="email" />
+          <label for="password">Senha</label>
+          <input type="password" name="password" id="password" />
+          <div class="login-section__passwords-container">
+            <div>
+              <input
+                class="login-section__remember-input"
+                type="checkbox"
+                name="remember"
+                id="remember"
+              />
+              <label class="login-section__remember-label" for="remember"
+                >Lembre de mim</label
               >
             </div>
-            <button class="login-section__btn" type="submit">Entrar</button>
-          </form>
-          <p class="login-section__no-account">
-            Não tem uma conta?
-            <a class="login-section__register clr-accent-light" href="#"
-              >Cadastre-se</a
-            >
-          </p>
-        </div>
-      </section>
-    </div>
+            <a class="clr-accent-light" href="#">Esqueceu sua senha?</a>
+          </div>
+          <button class="login-section__btn" type="submit">Entrar</button>
+        </form>
+        <p class="login-section__no-account">
+          Não tem uma conta?
+          <a class="clr-accent-light" href="#">Cadastre-se</a>
+        </p>
+      </div>
+    </section>
   </body>
 </html>
