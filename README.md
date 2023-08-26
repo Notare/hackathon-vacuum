@@ -1,4 +1,4 @@
-# Hackathon da Vacuum 2 ° edição.
+# Hackathon da Vacuum 2° edição.
 
 A segunda edição do Hackathon da Vacuum conta com um desafio para testar suas habilidades com o front-end.
 

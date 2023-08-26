@@ -95,7 +95,8 @@ a:focus {
 }
 .login-section__no-account {
   text-align: center;
-  /* margin-top: 1em; */
+  margin-top: 1em;
+  margin-top: auto;
 }
 @media (min-width: 40em) {
   .test {
@@ -147,6 +148,5 @@ a:focus {
     padding-top: 7em;
   }
   .login-section__no-account {
-    margin-top: auto;
   }
 }
