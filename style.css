@@ -1,0 +1,109 @@
+:root {
+  --ff-primary: "Coda", cursive;
+  --ff-seconday: "Ledger", serif;
+}
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: "Coda", cursive;
+}
+img {
+  max-width: 100%;
+}
+.container {
+  padding: 3em 0;
+  width: 90%;
+  max-width: 70em;
+  margin: 0 auto;
+}
+a {
+  text-decoration: none;
+}
+a:hover,
+a:focus {
+  opacity: 0.5;
+}
+/* TYPOGRAPHY====================== */
+.ff-primary {
+  font-family: "Coda", cursive;
+}
+.ff-secondary {
+  font-family: "Ledger", serif;
+}
+.clr-accent {
+  color: #290a34;
+}
+.clr-accent-light {
+  color: #9b51e0;
+}
+/* CONTENT============================ */
+.main-content {
+  background: #0f0013;
+  color: white;
+  display: none;
+}
+.main-content__title {
+  font-weight: 400;
+  font-size: 1.5rem;
+}
+.main-content__link {
+  font-size: 2.25rem;
+  color: white;
+}
+/* LOGIN SECTION========================= */
+.login-section {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.login-section__title {
+  font-weight: 400;
+  font-size: 1.625rem;
+  margin-top: 0;
+  margin-bottom: 1.5em;
+}
+.login-section__form {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5em;
+}
+.login-section__form input {
+  border: 1px solid #e8e8e8;
+  padding: 1em;
+}
+.login-section__form input:focus {
+  outline: 2px solid #9b51e0;
+}
+.login-section__email-input,
+.login-section__pw-input,
+.login-section__remember-label,
+.login-section__forgot {
+  font-style: 0.875rem;
+}
+.login-section__passwords-container {
+  display: flex;
+  justify-content: space-between;
+  margin: 1em 0;
+}
+.login-section__remember-input {
+  accent-color: #9b51e0;
+}
+.login-section__btn {
+  font-family: "Lato", sans-serif;
+  background: #290a34;
+  color: white;
+  border: none;
+  border-radius: 0.5em;
+  padding: 1em;
+}
+.login-section__btn:hover,
+.login-section__btn:focus {
+  cursor: pointer;
+  opacity: 0.8;
+}
+.login-section__no-account {
+  text-align: center;
+  margin-top: auto;
+}

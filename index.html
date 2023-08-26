@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vacuum</title>
+    <link rel="stylesheet" href="./normalize.css" />
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Coda:wght@400;800&family=Lato&family=Ledger&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <section class="main-content">
+      <div class="container">
+        <h1 class="main-content__title">
+          HACKATHON <strong>VACUUM</strong> | 2º EDIÇÃO.
+        </h1>
+        <img src="" alt="Logo da Vacuum" class="main-content__logo" />
+        <a
+          target="_blank"
+          class="main-content__link"
+          href="https://discord.gg/vacuum"
+          >DISCORD.GG/VACUUM</a
+        >
+      </div>
+    </section>
+
+    <section class="login-section container">
+      <p class="login-section__welcome">Bem vindo.</p>
+      <h2 class="login-section__title clr-accent">Faça login na sua conta</h2>
+
+      <form class="login-section__form ff-secondary" action="">
+        <label class="login-section__email-label" for="email">E-mail</label>
+        <input
+          class="login-section__email-input"
+          type="email"
+          name="email"
+          id="email"
+        />
+
+        <label class="login-section__pw-label" for="password">Senha</label>
+        <input
+          class="login-section__pw-input"
+          type="password"
+          name="password"
+          id="password"
+        />
+
+        <div class="login-section__passwords-container">
+          <div>
+            <input
+              class="login-section__remember-input"
+              type="checkbox"
+              name="remember"
+              id="remember"
+            />
+            <label class="login-section__remember-label" for="remember"
+              >Lembre de mim</label
+            >
+          </div>
+          <a class="login-section__forgot clr-accent-light" href="#"
+            >Esqueceu sua senha?</a
+          >
+        </div>
+
+        <button class="login-section__btn" type="submit">Entrar</button>
+      </form>
+
+      <p class="login-section__no-account">
+        Não tem uma conta?
+        <a class="login-section__register clr-accent-light" href="#"
+          >Cadastre-se</a
+        >
+      </p>
+    </section>
+  </body>
+</html>
