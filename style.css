@@ -14,8 +14,10 @@ img {
 .container {
   padding: 3em 0;
   width: 90%;
-  max-width: 70em;
   margin: 0 auto;
+  /* max-width: 70em; */
+  display: flex;
+  flex-direction: column;
 }
 a {
   text-decoration: none;
@@ -23,6 +25,11 @@ a {
 a:hover,
 a:focus {
   opacity: 0.5;
+}
+.main-content,
+.ellipse-bottom,
+.ellipse-top {
+  display: none;
 }
 /* TYPOGRAPHY====================== */
 .ff-primary {
@@ -37,27 +44,17 @@ a:focus {
 .clr-accent-light {
   color: #9b51e0;
 }
-/* CONTENT============================ */
-.main-content {
-  background: #0f0013;
-  color: white;
-  display: none;
-}
-.main-content__title {
-  font-weight: 400;
-  font-size: 1.5rem;
-}
-.main-content__link {
-  font-size: 2.25rem;
-  color: white;
-}
 /* LOGIN SECTION========================= */
 .login-section {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
 }
-
+.login-section .container {
+  max-width: 30em;
+  min-height: 100vh;
+  padding-top: 7em;
+}
 .login-section__title {
   font-weight: 400;
   font-size: 1.625rem;
@@ -75,12 +72,6 @@ a:focus {
 }
 .login-section__form input:focus {
   outline: 2px solid #9b51e0;
-}
-.login-section__email-input,
-.login-section__pw-input,
-.login-section__remember-label,
-.login-section__forgot {
-  font-style: 0.875rem;
 }
 .login-section__passwords-container {
   display: flex;
@@ -106,4 +97,51 @@ a:focus {
 .login-section__no-account {
   text-align: center;
   margin-top: auto;
+}
+@media (min-width: 40em) {
+  .test {
+    display: flex;
+  }
+  .main-content {
+    background: #0f0013;
+    color: white;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 60%;
+    flex: 2;
+  }
+  .main-content__title {
+    font-weight: 400;
+    font-size: 1.5rem;
+    margin-bottom: 0;
+  }
+  .main-content__logo {
+    margin: 0 auto;
+  }
+  .main-content__link {
+    font-size: 2.1rem;
+    color: white;
+    display: inline-block;
+  }
+  .rect-bottom {
+    display: block;
+    margin: 0 auto;
+  }
+  .login-section {
+    flex: 1;
+    position: relative;
+  }
+  .ellipse-top {
+    position: absolute;
+    right: 0;
+    display: block;
+  }
+  .ellipse-bottom {
+    position: absolute;
+    right: 0;
+    display: block;
+    z-index: -1;
+  }
 }
