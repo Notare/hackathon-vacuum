@@ -53,7 +53,6 @@ a:focus {
 .login-section .container {
   max-width: 30em;
   min-height: 100vh;
-  padding-top: 7em;
 }
 .login-section__title {
   font-weight: 400;
@@ -96,7 +95,7 @@ a:focus {
 }
 .login-section__no-account {
   text-align: center;
-  margin-top: auto;
+  /* margin-top: 1em; */
 }
 @media (min-width: 40em) {
   .test {
@@ -133,15 +132,21 @@ a:focus {
     flex: 1;
     position: relative;
   }
-  .ellipse-top {
+  .login-section .ellipse-top {
     position: absolute;
     right: 0;
     display: block;
   }
-  .ellipse-bottom {
+  .login-section .ellipse-bottom {
     position: absolute;
     right: 0;
     display: block;
     z-index: -1;
+  }
+  .login-section .container {
+    padding-top: 7em;
+  }
+  .login-section__no-account {
+    margin-top: auto;
   }
 }
