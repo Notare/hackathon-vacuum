@@ -1,7 +1,7 @@
 # Hackathon Vacuum - Login Page
 This is a front-end project created for the Vacuum community hackathon that I won, the challenge was to create a login screen according to the design that was given. It features a responsive login page with a unique design element of ellipses.
 
-<!-- The design:  -->
+The design: https://github.com/Notare/hackathon-vacuum/blob/main/images/design.png
 
 **Link to project:** https://notare.github.io/hackathon-vacuum
 
